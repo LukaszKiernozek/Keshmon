@@ -1,0 +1,35 @@
+.letter-box {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ccc;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#poke-info {
+    width: 100px;
+    min-height: 100px;
+    padding: 10px;
+    font-family: sans-serif;
+    background-color: #ccc;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.container0 {
+    display:flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+}
